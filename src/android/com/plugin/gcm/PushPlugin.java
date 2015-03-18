@@ -132,7 +132,7 @@ public class PushPlugin extends CordovaPlugin {
         super.onPause(multitasking);
         gForeground = false;
         final NotificationManager notificationManager = (NotificationManager) cordova.getActivity().getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.cancelAll();
+        //notificationManager.cancelAll();
     }
 
     @Override
